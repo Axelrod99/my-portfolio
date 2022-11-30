@@ -209,7 +209,7 @@ function App() {
       </div>
 
       {showSigninModal &&  <>
-        <form className='w-60 h-60 rounded-lg bg-[#181818] text-black font-semibold fixed m-auto top-5 right-5 z-[999]'>
+        <form className='w-60 h-48 rounded-lg bg-[#181818] text-black font-semibold fixed m-auto top-5 right-5 z-[999]'>
 
           <div className='flex justify-between p-5 '>
             <p className='text-sm text-[#8758FF]'>Jibola.</p>
@@ -222,9 +222,9 @@ function App() {
           <div className='flex flex-col gap-7 px-5 text-white items-start'>
             <button onClick={onTouch} className='underline'>Works</button>
             <button onClick={onHoard} className='underline'>About</button>
-            <div>
+            {/* <div>
               <button className='flex items-center text-xs text-[#8758ff] px-3 py-1 rounded-md border-2 border-[#8758FF]'>Resume</button>
-            </div>
+            </div> */}
           </div>
 
         </form>

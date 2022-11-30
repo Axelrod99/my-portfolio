@@ -11,9 +11,9 @@ export default function Header({onSignin, onClick, onAbout}) {
         <button onClick={onAbout} className='underline'>About</button>
       </div>
 
-      <button 
+      {/* <button 
         className='hidden sm:flex items-center text-xs text-[#8758ff] bg-[#8758ff3d] p-1 rounded-md border-2 border-[#8758FF] z-[999]'>Resume
-      </button>
+      </button> */}
 
 
       
