@@ -44,33 +44,33 @@ function App() {
 
   return (
     <div className="App">
-      <Header
+      <Header 
         onSignin={()=>setShowSigninModal(true)}
         onClick={()=>handleclick(true)}
         onAbout={()=>aboutclick(true)}
       />
 
       {/* <div className="bg-[url('circle.png')] flex w-60 h-60"> */}
-      <div className='w-full flex' id='aaa'>
+      <div className='w-full flex h-fit '>
         <div className='w-full flex flex-col items-start justify-center p-5 z-[999]'>
           <p className='flex text-xs text-[#8758FF]'>(Hello! my name is..../) </p>
-          <p className='flex so:text-2xl md:text-4xl font-bold my-3 '>Ajibola Ajiboye</p>
-          <p className='text-xl md:text-4xl flex mb-3'>I build the future, one line of code at a time</p>
+          <p className='flex so:text-4xl md:text-4xl font-bold my-3 '>Ajibola Ajiboye</p>
+          <p className='text-2xl font-thin md:text-4xl flex mb-3'>I build the future, one line of code at a time</p>
+
           <div>
-            <a href='http://ajibolaajiboye99@gmail.com' className='flex gap-1 items-center text-xs text-[#8758ff] bg-[#8758ff3d] px-3 py-2 rounded-md border-2 border-[#8758FF]'>Get in touch<img className='h-2' src={Arrow}/></a>
+            <a href='http://ajibolaajiboye99@gmail.com' className='flex gap-1 items-center text-sm text-[#8758ff] bg-[#8758ff3d] px-3 py-2 rounded-md border-2 border-[#8758FF]'>Get in touch<img className='h-2' src={Arrow}/></a>
           </div>
         </div>
 
 
-
-        <img className='hidden bx:flex h-96 xl:h-[570px] lg:h-[540px] md:h-[450px] sm:h-[350px] bx:[300px] xo:h-[250px] so:h-[250px] justify-end relative left-40 bottom-20' src={circle}/>
+        <img className='hidden bx:flex h-96 xl:h-[570px] lg:h-[540px] md:h-[450px] sm:h-[350px] bx:[300px] xo:h-[250px] so:h-[250px] justify-end relative left-40 bottom-24' src={circle}/>
 
       </div>
 
       <p ref={ref} className='xo:text-5xl so:text-5xl sm:text-8xl md:text-9xl font-black text-[#8758FF70] opacity-25 flex justify-center mb-10'>Projects</p>
 
       <div className='mx-10 border-t-2 border-[#bfa6ff2a]'>
-        <div className='flex w-full my-20 flex-col md:flex-row'> 
+        <div className='flex w-full my-10 flex-col md:flex-row'> 
           <div className='w-full flex flex-col items-center md:items-start justify-center pb-5'>
             <p className='text-[#8758FF70] text-xl font-bold my-2'>One-work Landing Page</p>
             <p className='text-sm my-1'>One-work is an online platform for freelancers to find crypto jobs.</p>
@@ -94,7 +94,7 @@ function App() {
 
       
       <div className=' mx-10'>
-        <div className='flex w-full my-20 flex-col-reverse md:flex-row'>
+        <div className='flex w-full my-10 flex-col-reverse md:flex-row'>
           <div className='w-full bg-[#070215] rounded-xl px-5'>
             <div className='flex justify-center relative top-4'>
               <p className='text-md lg:text-2xl xl:text-3xl font-semibold text-[#8758ff3d]'>Health-First</p>

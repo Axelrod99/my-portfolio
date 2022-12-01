@@ -7,8 +7,8 @@ export default function Header({onSignin, onClick, onAbout}) {
       <p className='font-bold text-[#8758FF] text-xl'>Jibola.</p>
 
       <div className='gap-5 font-semibold text-xs hidden sm:flex'>
-        <button onClick={onClick} className='underline'>Works</button>
-        <button onClick={onAbout} className='underline'>About</button>
+        <button onClick={onClick} className='underline z-[999]'>Works</button>
+        <button onClick={onAbout} className='underline z-[999]'>About</button>
       </div>
 
       {/* <button 
