@@ -51,11 +51,11 @@ function App() {
       />
 
       {/* <div className="bg-[url('circle.png')] flex w-60 h-60"> */}
-      <div className='w-full flex h-fit '>
+      <div className='w-full flex h-fit my-7 bx:my-0'>
         <div className='w-full flex flex-col items-start justify-center p-5 z-[999]'>
           <p className='flex text-xs text-[#8758FF]'>(Hello! my name is..../) </p>
           <p className='flex so:text-4xl md:text-4xl font-bold my-3 '>Ajibola Ajiboye</p>
-          <p className='text-2xl font-thin md:text-4xl flex mb-3'>I build the future, one line of code at a time</p>
+          <p className='text-xl md:text-4xl flex mb-3'>I build the future, one line of code at a time</p>
 
           <div>
             <a href='http://ajibolaajiboye99@gmail.com' className='flex gap-1 items-center text-sm text-[#8758ff] bg-[#8758ff3d] px-3 py-2 rounded-md border-2 border-[#8758FF]'>Get in touch<img className='h-2' src={Arrow}/></a>
