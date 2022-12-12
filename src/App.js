@@ -5,7 +5,7 @@ import Header from './component/Header';
 import circle from '../src/assets/icons/circle.png'
 import onework from './assets/images/onework.png'
 import Landing from './assets/images/Landing.png'
-import kwikmed from './assets/images/kwikmed.png'
+import whitelist from './assets/images/whitelist.png'
 import Desktop from './assets/images/Desktop.png'
 import image from './assets/images/image.png'
 import you from './assets/images/you.png'
@@ -127,8 +127,8 @@ function App() {
         <div className='flex w-full my-10 flex-col md:flex-row'>
 
           <div className='w-full flex flex-col items-center md:items-start justify-center p-5 '>
-            <p className='text-[#8758FF70] text-xl font-bold'>Kwikmed</p>
-            <p className='text-sm my-1'>Kwikmed is a platform used to book medical tests online and have results delivered.</p>
+            <p className='text-[#8758FF70] text-xl font-bold'>whitelist</p>
+            <p className='text-sm my-1'>Find Whitelist slots on the marketplace, place offers and connect with whitelist owners.</p>
             <div className='flex text-[10px] gap-3'>
               <p>#VS Code</p>
               <p>#React</p>
@@ -137,16 +137,16 @@ function App() {
             </div>
             
             <div className='my-2 flex gap-3'>
-              <button className='flex items-center text-xs text-[#8758ff] bg-[#8758ff3d] px-3 py-1 rounded-md border-2 border-[#8758FF]'>Github <img className='h-4' src={button2}/></button>
-              <button className='flex items-center text-xs text-[#8758ff] bg-[#8758ff3d] px-3 py-1 rounded-md border-2 border-[#8758FF]'>Netlify <img className='h-4' src={netlify}/></button>
+              <a href='https://github.com/Axelrod99/whitelist-landing-page.git' className='flex items-center text-xs text-[#8758ff] bg-[#8758ff3d] px-3 py-1 rounded-md border-2 border-[#8758FF]'>Github <img className='h-4' src={button2}/></a>
+              <a href='https://whitelistt.netlify.app' className='flex items-center text-xs text-[#8758ff] bg-[#8758ff3d] px-3 py-1 rounded-md border-2 border-[#8758FF]'>Netlify <img className='h-4' src={netlify}/></a>
             </div>
           </div>
 
           <div className='w-full bg-[#070215] rounded-xl px-5'>
             <div className='flex justify-center relative top-4'>
-              <p className='text-md lg:text-2xl xl:text-3xl font-semibold text-[#8758FF]'>Kwikmed</p>
+              <p className='text-md lg:text-2xl xl:text-3xl font-semibold text-[#8758FF]'>whitelist</p>
             </div>
-            <img className='pt-10' src={kwikmed}/>
+            <img className='pt-10' src={whitelist}/>
           </div> 
 
         </div>
