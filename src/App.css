@@ -45,3 +45,60 @@ html{
 body{
   overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+  width: 8px; 
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #595252; 
+  border-radius: 4px; 
+}
+
+::-webkit-scrollbar-track:hover {
+  background-color: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; 
+}
+
+
+
+
+
+
+#scroll-image::-webkit-scrollbar {
+  display: none;
+}
+
+#scroll-image {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.my-div {
+  position: relative;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1D4C41;
+  border-radius: 5px;
+
+}
+
+#scroll-image::-webkit-scrollbar {
+  display: none;
+}
+
+#scroll-image {
+-ms-overflow-style: none; 
+scrollbar-width: none;  
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}

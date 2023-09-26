@@ -14,7 +14,7 @@ const Footer = () => {
         <div className='flex gap-4'>
             <a href='http://ajibolaajiboye99@gmail.com'><img className='h-14' src={mail}/> </a>
             <a href='https://twitter.com/_fineneighbour?t=cz7avwlYJOpbR6KCPsW0Qw&s=09'><img className='h-14' src={twitter}/> </a>
-            <a href='#'><img className='h-14' src={linkedin}/> </a>
+            <a href='https://www.linkedin.com/in/ajiboye-ajibola-2b095722a'><img className='h-14' src={linkedin}/> </a>
             <a href='https://github.com/Axelrod99'><img className='h-14' src={github}/> </a>
         </div>
     </div>
