@@ -57,7 +57,7 @@ function App() {
       <div className="w-full flex h-fit my-7 bx:my-0">
         <div className="w-full flex flex-col items-start justify-center p-5 z-[999]">
           <p className="flex text-xs text-[#8758FF]">
-            (Hello! my name is..../){" "}
+          {'{Hello! my name is...}'}
           </p>
           <p className="flex so:text-4xl md:text-4xl font-bold my-3 ">
             Ajibola Ajiboye
@@ -94,7 +94,7 @@ function App() {
         <div className="mx-10 border-t-2 border-[#bfa6ff2a]">
           <div className="flex w-full my-10 flex-col md:flex-row gap-5">
             <div className="w-full flex flex-col items-center md:items-start justify-center gap-2 pb-5">
-              <p className="text-[#8758FF70] text-xl font-bold my-2">
+              <p className="text-[#8758FF70] text-3xl font-bold my-2">
                 HousePadi
               </p>
               <p className="text-sm my-1 leading-7">
@@ -141,7 +141,7 @@ function App() {
             </div>
 
             <div className="w-full flex flex-col items-center gap-2 md:items-start justify-center p-5">
-              <p className="text-[#8758FF70] text-xl font-bold">Lamore</p>
+              <p className="text-[#8758FF70] text-3xl font-bold">Lamore</p>
               <p className="text-sm my-1 leading-7">
                 This is an event management web Platform. You can organize a
                 wide range of events and collaborate with various vendors who
@@ -168,7 +168,7 @@ function App() {
         <div className=" mx-10">
           <div className="flex w-full my-10 flex-col md:flex-row">
             <div className="w-full flex flex-col gap-2 items-center md:items-start justify-center p-5 ">
-              <p className="text-[#8758FF70] text-xl font-bold">Comptware</p>
+              <p className="text-[#8758FF70] text-3xl font-bold">Comptware</p>
               <p className="text-sm my-1 leading-7">
                 Empowering your business with cutting-edge technology
               </p>
@@ -216,7 +216,7 @@ function App() {
             </div>
 
             <div className="w-full flex flex-col gap-2 items-center md:items-start justify-center p-5">
-              <p className="text-[#8758FF70] text-xl font-bold">Moviebox</p>
+              <p className="text-[#8758FF70] text-3xl font-bold">Moviebox</p>
               <p className="text-sm my-1">
                 A project that displays a different movies based on genre.
               </p>
@@ -252,7 +252,7 @@ function App() {
           <p className="leading-5">
             My name is Ajiboye Ajibola, i am a frontend developer who has
             acquired the working knowledge of HTML, CSS, Javascript, React,
-            Typescript and Node over the year through self-learning, to build
+            Typescript and APIs over the year through self-learning, to build
             fully responsive, secure and functional web pages.
           </p>
 
