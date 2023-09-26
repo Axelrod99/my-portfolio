@@ -229,7 +229,7 @@ function App() {
               <div className="my-2 flex gap-3">
                 <a
                   href="https://hng-stage-two.vercel.app/"
-                  className="flex items-center text-xs text-[#8758FF70] bg-[#8758ff3d] px-3 py-1 rounded-md shadow shadow-[#8758FF]"
+                  className="flex items-center text-xs text-[#8758ff] bg-[#8758ff3d] px-3 py-1 rounded-md shadow shadow-[#8758FF]"
                 >
                   MovieBox
                 </a>
